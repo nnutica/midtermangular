@@ -1,0 +1,32 @@
+<div></div>
+<div *ngIf="products.length > 0; else noProducts">
+    <h2>Product List</h2>
+    <ul>
+        <li *ngFor="let product of products">
+        {{product.name}} - ${{product.price}} ({{ product.category }})
+        <input type="number" [placeholder]="placeholderText" #newPriceInput min="0" />     
+        <button (click)="updatePrice(product,newPriceInput.value)">updatePrice</button> 
+        </li>
+    </ul>
+</div>
+
+<ng-template #noProducts>
+    <p>No Products available</p>
+</ng-template>
+
+<h2>Add New Product</h2>
+<form (ngSubmit)="addProduct()">
+    <label>
+        Product Name: <input type="text" [(ngModel)]="newProductName" name="productName" placeholder="Enter product name"/>
+</label>
+<label>
+    Product Price: <input type="number" [(ngModel)]="newProductPrice" name="productPrice" placeholder="Enter product price" min="0" />
+  </label>
+  <button type="submit">Add Product</button>
+</form>
+
+<div *ngIf="newProductName && newProductPrice !== null">
+<h2>New Product Preview :</h2>
+<p>Name: {{newProductName}}</p>
+<p>Price: {{newProductPrice}}</p>
+</div>

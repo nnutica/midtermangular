@@ -1,0 +1,59 @@
+/* productlist.component.css */
+
+:host {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional: light grey background */
+    padding: 20px; /* Optional: add some padding */
+}
+
+h2 {
+    margin: 20px 0; /* Add some margin around headings */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+li {
+    margin: 10px 0; /* Add some space between list items */
+    display: flex; /* Use flexbox to align input and button */
+    align-items: center; /* Center items vertically */
+}
+
+input[type="number"], input[type="text"] {
+    margin-left: 10px; /* Space between input and text */
+    padding: 5px; /* Optional: add padding to input */
+    border: 1px solid #ccc; /* Optional: border style */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
+button {
+    margin-left: 10px; /* Space between input and button */
+    padding: 5px 10px; /* Optional: button padding */
+    background-color: #007bff; /* Optional: button background color */
+    color: white; /* Optional: button text color */
+    border: none; /* Optional: remove border */
+    border-radius: 4px; /* Optional: rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #0056b3; /* Optional: button hover effect */
+}
+
+form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center form elements */
+    margin-top: 20px; /* Space above the form */
+}
+
+form label {
+    margin-bottom: 10px; /* Space between form labels */
+}
