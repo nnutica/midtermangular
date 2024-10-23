@@ -1,27 +1,9 @@
-# Midtermtest
+# MidtermIT410
+# Create by Nitinat loruthai 1650703596
+Js And Ts คือ ข้อ1-8 จะอยู่ในรูปของ typescript 
+midtermtest ตัวนี้จะเป็นในส่วนของ angular 
+โดยผมใช้แชท GPT ในการ Refactor code รวมถึง ให้ช่วยแก้ Asynchronous Programming ในส่วนของการใช้ await
+นอกนั้น ทั้งหมด ผมเขียนด้วยตัวเองครับ
+ในส่วนของ angular มีการใช้gpt อย่างเดียว คือการแก้ในส่วนของการแก้ราคา เนื่องจากตอนแรกติดerror Argument of type 'string' is not assignable to parameter of type 'number'.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ผมใช้เทคนิคคือ เปิดไฟล์แนวข้อสอบที่อาจารย์ให้มาสัปดาห์ก่อน ผมลองทำโจทย์แต่ละข้อด้วยตัวเอง ทำให้ในวันนี้ ผมสามารถนำไฟล์มาเทียบกันได้ในเวลาเขียน 
